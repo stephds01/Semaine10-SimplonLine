@@ -9,37 +9,24 @@ body, html {
 .container {
   width: 100%;
   min-height: calc(100vh);
-  //min-height: 1161px;
-  //background-image: url("../images/confectionary.png");
   background-image: url("../images/table.jpg");
   background-repeat: repeat;
-
 }
 
 footer {
   background-color: #882361;
   position: fixed;
-  bottom:0;
-  width:100%;
+  bottom: 0;
+  width: 100%;
   height: 50px;
 }
-
-
 
 /********************************/
 /*     LEFT                     */
 /********************************/
 .blocLeft {
-  //background-image: url("../images/confectionary.png");
-  //background-repeat: repeat;
-  //height: 100vh;
-
   position: relative;
-  //left: 0;
-  //top: 0;
-  //z-index: 9;
 }
-
 
 /**************************************/
 .blocLeftHeaderTitle {
@@ -49,46 +36,36 @@ footer {
   width: 52%;
   margin-left: 20%;
   margin-top: 5%;
-
 }
-
 
 .blocLeftHeaderTitle p {
   text-align: center;
 }
 
-.blocLeftHeaderTitle p a{
+.blocLeftHeaderTitle p a {
   font-weight: bold;
   text-decoration: none;
   color: #882361;
-
 }
 
-.blocLeftHeaderTitle p a:hover{
+.blocLeftHeaderTitle p a:hover {
   color: black;
 }
 
 /********************************************/
-
 .blocLeftHeaderCompteur {
   width: 100%;
-
   position: relative;
-  top:15%;
-  left:0;
-
+  top: 15%;
+  left: 0;
   background-color: rgba(136, 35, 97, 0.2);
-
   text-align: center;
 }
 
-.blocLeftHeaderCompteur p{
+.blocLeftHeaderCompteur p {
   padding: 5px;
   font-size: x-large;
   font-weight: bold;
-}
-.blocLeftHeaderCompteur span{
-
 }
 
 .macaron {
@@ -101,32 +78,26 @@ footer {
 .blocLeftHeaderFooter {
   width: 100%;
   height: 150px;
-
   position: absolute;
   bottom: 0;
   left: 0;
-
-
   color: white;
   background-color: #882361;
-  //background-image: url("../images/macaron11.jpg");
 }
 
 .blocLeftHeaderFooter p {
   padding: 10px;
 }
 
-
 /*******************************/
 /*      COOKIES                */
 /*******************************/
 .boutonCookies {
-  background-image: url('../images/cookies.png');
+  background-image: url("../images/cookies.png");
   background-repeat: no-repeat;
   width: 300px;
   height: 292px;
   margin: 0 auto;
-
 }
 
 .divTxt {
@@ -135,40 +106,19 @@ footer {
   font-size: 50px;
 }
 
-
-
 /********************************/
 /*     MIDDLE                  */
 /********************************/
-
-.blocMiddle {
-     //background-image: url("../images/confectionary.png");
-     //background-repeat: repeat;
-
-     //position: absolute;
-     //top: 0;
-     //left:33.5%;
-     //
-     ////height: 100vh;
-     //z-index: 9;
-
-   }
- .blocMiddleOn {
-   background-color: #882361;
-
-   position: absolute;
-   top: 0;
-   left:33.5%;
-
-   //height: 100vh;
-
- }
+.blocMiddleOn {
+  background-color: #882361;
+  position: absolute;
+  top: 0;
+  left: 33.5%;
+}
 
 .blocMiddle {
   display: block;
 }
-
-
 
 .bloc2-container-header.one, .TitleRandom {
   display: inline;
@@ -180,11 +130,6 @@ footer {
   position: relative;
 }
 
-
-//.bloc2-container-content {
-//  margin-top: 133px;
-//}
-
 .btnOff {
   position: absolute;
   top: 130px;
@@ -195,36 +140,35 @@ footer {
 }
 
 .one button {
-    display: inline-block;
-    vertical-align: top;
-  }
+  display: inline-block;
+  vertical-align: top;
+}
 
-  .one .titleRandom {
-    display:inline-block;
-    color: #882361;
-  }
+.one .titleRandom {
+  display: inline-block;
+  color: #882361;
+}
 
- .titleRandom {
-   text-align: center;
-   margin-left: 10%;
- }
+.titleRandom {
+  text-align: center;
+  margin-left: 10%;
+}
 
- .two {
-   position: relative;
- }
- .two button:last-child {
-   position: absolute;
-   bottom: 0px;
-   right: 0px;
- }
+.two {
+  position: relative;
+}
+
+.two button:last-child {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
 .blocRight {
-  //background-color: green;
-  //min-height: 500px;
   position: absolute;
   right: -4px;
   top: 0;
-
-  margin-top:0;
+  margin-top: 0;
 }
 
 .blocLeft, .blocMiddle, .blocRight, .blocMiddleOn {
@@ -234,10 +178,9 @@ footer {
   vertical-align: top;
   min-height: 1161px;
 }
+
 .bloc2-container-header {
   width: 100%;
-  //height:100vh;
-
 }
 
 .bloc2-container-header, .bloc3-container-header, .bloc3-container-info {
@@ -249,46 +192,34 @@ footer {
   top: 0;
   left: 0;
   z-index: 0;
-  //height: 100vh;
   background-color: #882361;
   opacity: 0.2;
 }
 
-
-  .bloc2-container-header {
-    display: inline-block;
-    background-color: #d886b1;
-  }
+.bloc2-container-header {
+  display: inline-block;
+  background-color: #d886b1;
+}
 
 #frise {
   width: 100%;
   height: 150px;
-
   display: inline-block;
-
   background-color: rgba(136, 35, 97, 0.2);
-
   text-align: center;
 }
-
-
-
-
-
 
 /********************************/
 /*     RIGHT              */
 /********************************/
-
-
 .bloc3-container-header h1 {
   text-align: center;
   background-color: #d886b1;
-  margin:0;
-  padding:15px;
-  color:  #882361;
-
+  margin: 0;
+  padding: 15px;
+  color: #882361;
 }
+
 .img {
   max-width: 100%;
   height: auto;
@@ -305,18 +236,18 @@ footer {
   text-align: center;
   display: inline-block;
   padding-right: 15px;
-
 }
+
 .item-title {
   text-align: center;
   background-color: #B6BFC3;
   padding: 2px;
-  text-transform: capitalize ;
+  text-transform: capitalize;
   font-weight: bold;
   font-size: 20px;
-
   margin-top: 0;
 }
+
 .item {
   width: 100%;
   height: 150px;
@@ -328,16 +259,18 @@ footer {
   font-size: 30px;
   color: #eee;
 }
+
 .multiplicateur:hover {
   background-color: hotpink;
   font-size: 30px;
   color: #eee;
 }
 
-.lait:hover,.farine:hover, .beurre:hover, .chocolat:hover , .surprise:hover{
-   background-color: #C3C5B8;
- }
-.lait,.farine, .beurre, .chocolat , .surprise{
+.lait:hover, .farine:hover, .beurre:hover, .chocolat:hover, .surprise:hover {
+  background-color: #C3C5B8;
+}
+
+.lait, .farine, .beurre, .chocolat, .surprise {
   background-color: #C3C5B8;
   border: 1px #7c7780 solid;
 }
@@ -350,67 +283,48 @@ footer {
   background-color: #882361;
 }
 
-
-
 .acheteFarine {
   background-color: #882361;
 }
-
-
 
 .acheteBeurre {
   background-color: #882361;
 }
 
-
 .acheteChocolat {
-   background-color: #882361;
- }
-
+  background-color: #882361;
+}
 
 .acheteSurprise {
   background-color: #882361;
 }
 
 .over {
-
   width: 300px;
   height: 80px;
   background-color: #882361;
-  padding:15px;
-  border-radius:  25px 5px;
-
+  padding: 15px;
+  border-radius: 25px 5px;
   position: absolute;
   top: 14%;
   left: 20%;
-
   color: #eee;
   font-size: x-large;
 }
 
-
-
-
-
-
-
-
 /*******************************/
 /*    MODULES
 /*******************************/
-
-
 /****************   BLOC 3    ***************/
-
 .bloc3-container-info {
   padding: 15px;
 }
+
 .bloc3-container-info p {
   display: inline-block;
   vertical-align: top;
   height: auto;
   margin: 0;
-
 }
 
 /************************/
@@ -424,31 +338,24 @@ footer {
   font-weight: bold;
 }
 
-
-
 /****************************/
 /*    MODAL
 /****************************/
-
 .modal {
   width: 340px;
   position: absolute;
   left: 92px;
   top: 120px;
   z-index: 999;
-
   padding: 10px 15px;
-
   background-color: #882361;
 }
 
- .croix {
+.croix {
   position: absolute;
   top: 0;
   right: 0;
-
   padding: 5px;
-
   color: white;
   font-weight: bold;
 }
@@ -457,23 +364,22 @@ footer {
   color: white;
   text-decoration: none;
 }
+
 .modal h3 {
   font-size: medium;
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-
 }
+
 .modal .content p {
   border: thin white solid;
-
   padding: 5px;
   margin-bottom: 3px;
 }
 
 .modal .content div {
   border: thin white solid;
-
   padding: 5px;
 }
 
@@ -486,8 +392,8 @@ footer {
   text-align: center;
   padding-top: 10px;
 }
-/***********************************************/
 
+/***********************************************/
 /*******************************/
 /*    Evenement
 /*******************************/

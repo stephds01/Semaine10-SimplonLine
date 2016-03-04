@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Jeu Révision</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav>
+        <a href="#">Vocabulaire</a>
+        <a href="#">Construction de phrase</a>
+        <div class="clear"></div>
+    </nav>
+    <div class="container">
+        <h1>Jeu révision mots de vocabulaire</h1>
 
+        <p>Bienvenue sur le jeu de révision de tes mots de vocabulaire Français / Anglais</p>
+            <div class="groupButton">
+                <button id="motFrench">Joue en Français</button>
+                <button id="motEnglish">Joue en Anglais</button>
+            </div>
+
+            <div class="jeu">
+                <div id="nom" class="mot"> </div>
+                <input id="reponse" class="reponse" type="text" />
+                <button id="valider" class="btnValider" onclick="validate()">Valider</button>
+
+            </div>
+
+        <div>
+            <p id="messageAlert"></p>
+        </div>
+
+        <div>
+            <p id="note"></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

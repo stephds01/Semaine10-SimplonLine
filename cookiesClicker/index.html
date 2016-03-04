@@ -1,11 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cookies Clicker</title>
-</head>
-<body>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cookies Clicker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!--<meta name="viewport" content="width=device-width, user-scalable=yes" />-->
+        <!-- Latest compiled and minified CSS -->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    <link rel="stylesheet" href="css/style.css">-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body onload="phraseAleatoire()">
+        <div class="container">
+
+        <!--//Section Left-->
+
+            <div class="blocLeft" id="blocLeft">
+                <!--<div class="filtre"></div>-->
+                <div class="blocLeftHeaderTitle" id="ouvrir" onclick="ouvrir()">
+                    <p><a href="#" id="titre">Nom de votre Macaron</a></p>
+                </div>
+
+                <div class="blocLeftHeaderCompteur">
+                    <p><span id="affichage"></span> millions<br />cookies</span></p>
+                    <p>par second: 3-7</p>
+                    <p id="affichage1"></p>
+                </div>
+
+                <div class="macaron">
+                    <div id="bouton" class="boutonCookies divTxt" onmousedown="mDown(this)" onmouseup="mUp(this)"></div>
+                </div>
+
+                <div class="blocLeftHeaderFooter">
+                    <p>V.1.0466</p>
+                </div>
+            </div>
 
 
-</body>
+            <!--//Section MIDDLE-->
+            <div id="blocMiddle" class="blocMiddle">
+                <!--blocMiddleOn-->
+
+
+                <div class="bloc2-container-header">
+                    <div class="one">
+                        <button id="menu" onclick = "menu()" >Menu</button>
+                        <h2 id="titleRandom" class="titleRandom"></h2>
+                    </div>
+                    <div class="two">
+                        <button id="stats">Stats</button>
+                        <button id="updates">Updates</button>
+                    </div>
+                </div>
+
+                <!--<div id="frise">-->
+                    <!--<p>DESSIN AVEC CANVAS</p>-->
+                <!--</div>-->
+
+
+                <div id="afficheMenu" class="bloc2-container-content">
+
+                </div>
+            </div>
+
+
+            <!--//Section right-->
+            <div class="blocRight">
+                <div class="bloc3-container-header">
+                    <h1>STORE</h1>
+                </div>
+                <div class="bloc3-container-info">
+                    <p><img class='img' src="images/items/itemLait.jpg" width="100" height="100" alt="Lait"></p>
+                    <p><img class='img' src="images/items/itemFarine.jpg" width="100" height="100" alt="Farine"></p>
+                    <p><img class='img' src="images/items/itemBeurre.jpg" width="100" height="100" alt="Beurre"></p>
+                    <p><img class='img' src="images/items/itemChocolat.jpg" width="100" height="100" alt="Chocolat"></p>
+                </div>
+                <button id="multiplicateur" class="item multiplicateur ">Multiplicateur :</button>
+                <div id="lait" class="item lait ">
+                    <div class="item-title">
+                        <p>Avez vous besoin de <span class="upper">lait</span> ? </p>
+                    </div>
+                    <div class="box">
+                        <p><i class="fa fa-eur"></i></p>
+                        <p>ACHETER</p>
+                    </div>
+
+                </div>
+
+                <div id="farine" class="item farine ">
+                    <div class="item-title">
+                        <p>Avez vous besoin de <span>farine</span> ?</p>
+                    </div>
+                    <div id="boxFarine" class="box ">
+                        <p><i class="fa fa-eur"></i></p>
+                        <p>ACHETER</p>
+                    </div>
+
+                </div>
+
+                <div id="beurre" class="item beurre ">
+                    <div  class="item-title">
+                        <p >Avez vous besoin de <span>beurre</span> ?</p>
+                    </div>
+                    <div class="box">
+                        <p><i class="fa fa-eur"></i></p>
+                        <p>ACHETER</p>
+                    </div>
+                </div>
+
+                <div id="chocolat" class="item chocolat ">
+                    <div class="item-title">
+                        <p>Avez vous besoin de <span>chocolat</span> ?</p>
+                    </div>
+                    <div class="box">
+                        <p><i class="fa fa-eur"></i></p>
+                        <p>ACHETER</p>
+                    </div>
+
+                </div>
+
+                <div id="surprise" class="item surprise ">
+                    <div class="item-title">
+                        <p>Voulez vous voir la <span>surprise</span> ?</p>
+                    </div>
+                    <div class="box">
+                        <p><i class="fa fa-eur"></i></p>
+                        <p>ACHETER</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer>Cookies Clickers 2016</footer>
+    <script src="js/left.js"></script>
+    <script src="js/middle.js"></script>
+    <script src="js/right.js"></script>
+    <script src="js/cookies.js"></script>
+    </body>
 </html>
