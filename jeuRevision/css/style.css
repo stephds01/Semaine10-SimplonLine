@@ -4,9 +4,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../images/fond-anglais_fotolia_86389763.jpg');
+    background-image: url('../images/anglais.jpg');
     /*opacity: 0.8;*/
-    background-size: cover;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
 
     font-size: 20px;
 }
@@ -14,9 +15,14 @@ body {
     clear: both;
 }
 
+h1 {
+    color:#FEFEFB;
+    font-size: 16px;
+}
+
 .container {
-    width: 900px;
-    margin: 10% 0 0 34%;
+    width: 60%;
+    margin: 5% 0 0 34%;
     padding: 20px;
 
     background-Color: #1c4b88;
@@ -25,7 +31,8 @@ body {
 
 nav {
     background-color: red;
-    height: 60px;
+    height: 40px;
+    font-size: 14px;
 }
 
 nav a {
@@ -35,7 +42,14 @@ nav a {
     color: #fff;
     font-weight: bold;
 }
-
+.logo {
+    float: left;
+    color: #1C1C4E;
+    font-size: 20px;
+}
+.logo:hover {
+    color: #1C1C4E;
+}
 nav a:hover {
     color: #1c4b88;
 }
@@ -46,17 +60,29 @@ nav a:hover {
 }
 
 .mot {
-    width: 150px;
-    height: 16px;
+    width: 100px;
+    height: 20px;
+    line-height: 0.8;
     display: inline-block;
     vertical-align: top;
-    padding: 15px;
+    padding: 10px 15px;
     border: 1px red solid;
+    background-color: #1C4B88;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.btnLang {
+    padding: 9px;
+    font-weight: bold;
+    font-size: 8px;
     background-color: red;
 }
-
 .groupButton {
-    margin: 15px;
+    margin-left: 26%;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .jeu {
@@ -65,12 +91,45 @@ nav a:hover {
 }
 
 .response {
-    width: 150px;
-    padding: 15px;
+    width: 100px;
+    padding: 12px;
 }
 
 .btnValider {
-    width: 150px;
-    height: 49px;
-    padding: 15px;
+    width: 100px;
+    height: 42px;
+    padding: 9px;
+    text-transform: capitalize;
+}
+
+.result {
+    position: relative;
+    border: 1px red solid;
+    margin-bottom: 15px;
+    /*text-transform: capitalize;*/
+
+
+}
+
+.note {
+    position: absolute;
+    top: -18px;
+    right: 0px;
+    font-size: 18px;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+}
+
+.messAlert {
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.val {
+    font-weight: bold;
+    color: red;
+    text-transform: capitalize;
 }
