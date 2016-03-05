@@ -7,7 +7,7 @@ var mots1 = [
     },
     {
         french:'aurevoir',
-        english: 'GoodBye'
+        english: 'Goodbye'
     },
     {
         french:'manger',
